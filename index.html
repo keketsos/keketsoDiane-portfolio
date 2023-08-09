@@ -1,0 +1,343 @@
+    
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Diane Semenya</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="propicSection__pic-container">
+        <img
+          src="./img/1617112483935.jpeg"
+          alt="Diane Semenya profile picture"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Diane Semenya</h1>
+        <p class="section__text__p2">Front-End Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./img/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./img/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+     <p class="section__text__p1">Get To Know More</p>   
+      <h1 class="title">About Me</h1>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers"></div>
+            <div class="details-container">
+              I am Diane an architectural technologist who is currently going through a career transition, a career in tech has interested me and due this i have completed the SHECODES Basics bootcamp where i have gained a strong foundation in the software developmental concepts and front-end technologies which included HTML, CSS, JAVASCRIPTS AND VISUALSTUDIO-CODE.<br>
+              My studies thus far have prepared me to learn rapidly.im seeking an internship or full-time employment ,i am highly committed and motivated to grow in my professional journey.I have also
+              enrolled as a software engineering student at Alx ,which is a leading technology training provider, built to accelerate the careers of young Africans through the technology and professional skills that enable them to thrive in the digital economy.
+            </div>
+          </section>
+          <section>
+              <h1 class="title">Education</h1>
+                <div class="details-container">
+              <div class="text-container">
+              <div class="certificateDetails-container">
+                <h3>Education</h3> <br>
+              <p>Shecodes Basics</p> <br>
+           <br><h3>Certification: </h3>
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/students/certificates/000/163/242/original/163242.png?1688989819"
+                alt
+              />
+             <br>
+              </div>
+            </div>
+          </div>
+          
+            </section>
+              <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./img/html.png"
+                  alt
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <P>Html.5</P>
+                
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./img/css.png"
+                  alt
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <P>CSS.3</P>
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./img/js.png"
+                  alt
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                 <P>FS6</P>
+                </div>
+              </article>
+
+              
+              <article>
+                <img
+                  src="./img/vs code.jpeg"
+                  alt
+                  class="icon"
+                />
+                <div>
+                  <h3>Visual studio Code </h3>
+                 <P>vs code</P>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./img/bootstrap.png"
+                  alt
+                  class="icon"
+                />
+                <div>
+                  <h3>Bootstrap </h3>
+                 <P>vs code</P>
+                </div>
+              </article>
+              <img
+        src="./img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+            </div>
+          </div>
+         
+              
+    
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./img/cloneNETFLIXloginpage.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <p> I have created a <strong>clone responsive Netflix login page </strong>using only HTML and CSS and Bootstrap, Netflix is one of the most popular streaming platforms worldwide,that has a user-friendly login page that captures our attention with its sleek and intuitive design,</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+           <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./img/portfolio.png"
+                alt="project 2"
+                class="project-img"
+              />
+                </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <p>  A <strong>responsive portfolio website</strong> is a combination of several pages that contains articles, images, and hyperlinks,This is the complete Portfolio Website that I have created by using HTML CSS and JavaScript </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          
+         <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./img/project3.PNG"
+                
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <p> <strong> ecommerce website</strong> where i used Html,Css snf Javsscript its a females construction brand fully inspired by making a woman still feel 100% feminine even on site. </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+
+            </div>
+                </div>
+                 <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./img/project4.PNG"
+                
+                alt="Project 4"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Four</h2>
+            <p> I have created a <strong>Home Design Slider Design </strong>this project is me merging my architectural background and my new found passion in tech,show casing different architectural styles and design.</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <img
+        src="./img/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+/>
+    
+    <section></section>
+ <section id="contact"></p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./img/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">kdianesemenya@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./img/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+         <div class="contact-info-container">
+          <img
+            src="./img/github.png"
+            alt="github icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://github.com/">Github</a></p>
+        </div>
+      </div>
+    </section>
+  <section></section>
+  </body>
+  
+   
